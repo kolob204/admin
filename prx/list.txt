@@ -1,0 +1,8 @@
+ссылки, где посмотреть
+https://htmlweb.ru/analiz/proxy_list.php?ord=name&p=1244
+free-proxy.cz/ru/proxylist/port/80/ping/5
+
+рабочие адреса
+
+62.33.207.197 : 80
+62.33.207.202

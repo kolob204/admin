@@ -1,0 +1,4 @@
+cd C:\Users\alekseeva_mm\.m2
+for /f "delims=" %a in ('dir /ad/b/s "*.jar"') do ren "%a" "xxxxx"
+for /R /d %d in ("xxxxx") do copy /Y %d\* %d\..\*
+for /R /d %d in ("xxxxx") do rd /s /q "%d"

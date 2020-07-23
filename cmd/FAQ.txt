@@ -1,0 +1,25 @@
+Различные способы Запуска процессов
+
+START
+https://ss64.com/nt/start.html
+START "title" [/D path] [options] "command" [parameters]
+
+Examples
+start "" "C:\Program Files (x86)\Xming\Xming.exe" -screen 0 -clipboard -multiwindo
+
+
+================================================================================================
+CALL
+
+Examples
+call [path]\user_projects\domains\test_domain\startWebLogic.cmd
+
+
+================================================================================================
+CALL and Exit
+
+cmd /c start iexplore "http://your/url.html"
+
+
+
+
